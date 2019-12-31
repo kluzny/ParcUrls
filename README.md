@@ -1,7 +1,5 @@
 # ParcUrls
 
-## About
-
 ParcUrls ( read as "parcels", so clever ) is a small utility class to help resolve tracking numbers into tracking urls from several of the larger parcel services. This is a direct fork of
 [darkain/php-tracking-urls](https://github.com/darkain/php-tracking-urls) with the goals of:
 
