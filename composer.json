@@ -1,0 +1,29 @@
+{
+    "name": "kluzny/parcurls",
+    "description": "A simple utility class to resolve parcel tracking urls",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "readme": "README.md",
+    "homepage": "https://github.com/kluzny/ParcUrls",
+    "keywords": ["usps", "ups", "fedex", "ontrac", "dhl", "package", "parcel", "tracking", "shipping"],
+    "authors": [
+        {
+            "name": "Kyle Luzny",
+            "email": "kluzny@gmail.com"
+        },
+        {
+            "name":   "Vincent Milum Jr",
+            "email":  "composer@darkain.com",
+            "homepage": "https://darkain.com",
+            "role":   "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+        "kluzny\\ParcUrls\\": "src/"
+      }
+    },
+    "require": {"php": "^7.0"}
+}
