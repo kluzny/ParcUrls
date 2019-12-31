@@ -71,8 +71,8 @@ class Parser {
     }
 
     $this->tracker = array(
-      'carrier' => 'Missing',
-      'description' => 'No matching pattern was found',
+      'carrier' => 'Unknown',
+      'description' => 'No matching tracking pattern found',
       'url'=>'',
       'regex'=>'/.*/'
     );
