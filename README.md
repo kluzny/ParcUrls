@@ -18,6 +18,14 @@ Supported shippers:
 * OnTrac
 * DHL
 
+## Install
+
+Note that the package names are lowercase
+
+```bash
+composer require kluzny/parcurls
+```
+
 ## Example
 Usage:
 
