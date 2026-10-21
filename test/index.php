@@ -73,27 +73,26 @@ $numbers = [
 
 use kluzny\ParcUrls\Parser;
 
-
 foreach ($numbers as $number => $service) {
   $parser = new Parser($number);
 
   echo "TESTING: {$number}\n";
 
-  if(empty($parser->tracker['carrier'])) {
+  if (empty($parser->tracker['carrier'])) {
     echo "\n  ---  FAILED  ---  NO CARRIER  ---";
     $errors = true;
   } else {
     echo "CARRIER: {$parser->tracker['carrier']}\n";
   }
 
-  if($url = $parser->url) {
+  if ($url = $parser->url) {
     echo "URL: {$url}\n";
-    if(!strpos($url, $service)) {
+    if (!strpos($url, $service)) {
       echo "\n  ---  FAILED  ---  WRONG SERVICE DETECTED  ---";
       $errors = true;
     }
   } else {
-    if($url === ''  &&  $service === false) {
+    if ($url === ''  &&  $service === false) {
       echo "\n  ---  NO SERVICE AVAILABLE FOR THIS VALUE  ---";
     } else {
       echo "\n  ---  FAILED  ---  NO SERVICE FOUND  ---";
@@ -103,7 +102,7 @@ foreach ($numbers as $number => $service) {
   echo "\n\n";
 }
 
-if($errors) {
+if ($errors) {
   echo " --- ERROR FOUND  ---  TEST FAILED  ---\n\n";
   exit(1);
 } else {
