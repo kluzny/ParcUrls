@@ -1,0 +1,6 @@
+# Same rules as phpstan.neon, but analysed as if running on PHP 8.0
+parameters:
+  level: 5
+  phpVersion: 80000
+  paths:
+    - src

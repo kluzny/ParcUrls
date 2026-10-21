@@ -25,5 +25,10 @@
         "kluzny\\ParcUrls\\": "src/"
       }
     },
-    "require": {"php": "^7.0"}
+    "require": {"php": "^7.0"},
+    "require-dev": {
+        "phpstan/phpstan": "^2.3",
+        "friendsofphp/php-cs-fixer": "^3.95",
+        "rector/rector": "^2.7"
+    }
 }

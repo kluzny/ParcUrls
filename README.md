@@ -24,6 +24,13 @@ Note that the package names are lowercase
 composer require kluzny/parcurls
 ```
 
+Version support:
+
+| PHP | Version | Install |
+|-----|---------|---------|
+| 8.0+ | 1.0.2 and later | `composer require kluzny/parcurls:^1.0.2` |
+| 7.x | 1.0.1 (no longer updated) | `composer require kluzny/parcurls:1.0.1` |
+
 ## Example
 Usage:
 
