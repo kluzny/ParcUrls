@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__ . '/../src/parser.php');
+require_once(__DIR__ . '/../src/Parser.php');
 
 $errors = false;
 
