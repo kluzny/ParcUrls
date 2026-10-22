@@ -1,7 +1,6 @@
 {
     "name": "kluzny/parcurls",
     "description": "A simple utility class to resolve parcel tracking urls",
-    "version": "1.0.1",
     "type": "library",
     "license": "BSD-2-Clause",
     "readme": "README.md",
@@ -25,7 +24,7 @@
         "kluzny\\ParcUrls\\": "src/"
       }
     },
-    "require": {"php": "^7.0"},
+    "require": {"php": "^8.0"},
     "require-dev": {
         "phpstan/phpstan": "^2.3",
         "friendsofphp/php-cs-fixer": "^3.95",
