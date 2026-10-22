@@ -12,7 +12,7 @@ return (new PhpCsFixer\Config())
       'classes_opening_brace' => 'same_line',
       'functions_opening_brace' => 'same_line',
     ],
-    '@PHP80Migration' => true,
-    '@PHP80Migration:risky' => true,
+    '@PHP84Migration' => true,
+    '@PHP82Migration:risky' => true,
     'declare_strict_types' => false,
   ]);
